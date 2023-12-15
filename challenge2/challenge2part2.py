@@ -11,3 +11,5 @@ total_bill=bill+bill*tip/100
 each_person_share=round(total_bill/guests,2)
 each_person_share="{:.2f}".format(each_person_share)
 print(f"\n Each person should pay : ${each_person_share}")
+
+
